@@ -9,5 +9,8 @@
         <module name="ChatBot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ChatAPI" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

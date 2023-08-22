@@ -33,12 +33,12 @@ public class Login {
     }
 
     private static String getUserEmail() {
-        String credentials = TextFileReader.readFileContents("/home/edual/GitHub/ChatAPI2/bin/credentials.txt");
+        String credentials = TextFileReader.readFileContents("/home/edual/GitHub/ChatAPI/bin/credentials.txt");
         return credentials.split("\n")[0];
     }
 
     private static String getPassword() {
-        String credentials = TextFileReader.readFileContents("/home/edual/GitHub/ChatAPI2/bin/credentials.txt");
+        String credentials = TextFileReader.readFileContents("/home/edual/GitHub/ChatAPI/bin/credentials.txt");
         return credentials.split("\n")[1];
     }
 
